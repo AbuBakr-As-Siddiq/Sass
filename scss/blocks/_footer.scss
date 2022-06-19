@@ -1,0 +1,138 @@
+footer {
+    display: flex;
+    padding: 50px;
+    margin-top: 80px;
+    justify-content: end;
+    height: 680px;
+    background-size: 400px;
+    width: 100%;
+    background-image: url('../img/runners\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+    .footer-container {
+        padding: 10px;
+        max-width: 490px;
+
+        div {
+            display: flex;
+            margin-top: 30px;
+            align-items: center;
+            max-width: max-content;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            width: 4px;
+            height: 100px;
+            margin-right: 40px;
+            border: none;
+            border-right: 1px solid #ffffff;
+        }
+
+        strong {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 120%;
+            color: #ffffff;
+        }
+
+        p {
+            font-style: normal;
+            margin: 0;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #ffffff;
+        }
+
+        .footer-btn {
+            background-color: #EA625C;
+            color: white;
+            padding: 12px 38px;
+            border: none;
+            text-decoration: none;
+        }
+
+        
+
+        
+
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width:520px)  {
+
+    footer {
+        margin-top: 70px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        background-image: url('../img/runners\ 1@2x.jpg');
+        background-position: 50%;
+        align-items: center;
+        max-width: 100%;
+    
+        .footer-container {
+            margin-top: 41px;
+            max-width: 490px;
+    
+            div {
+                display: flex;
+                align-items: center;
+                max-width: max-content;
+                margin-bottom: 30px;
+            }
+    
+            hr {
+                height: 100px;
+                margin-right: 40px;
+                border: none;
+                border-right: 1px solid #ffffff;
+            }
+    
+            h1 {
+                font-style: normal;
+                font-weight: 700;
+                margin: 0 0 30px 0px;
+                font-size: 50px;
+                line-height: 120%;
+                color: #ffffff;
+            }
+    
+            p {
+                font-style: normal;
+                margin: 0;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #ffffff;
+            }
+    
+            .footer-btn {
+                background-color: #EA625C;
+                color: white;
+                padding: 12px 38px;
+                border: none;
+                text-decoration: none;
+            }
+    
+            
+    
+            
+    
+        }
+    
+    
+    }
+    
+}
+

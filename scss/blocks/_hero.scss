@@ -1,0 +1,137 @@
+.hero {
+    display: flex;
+    padding: 150px 0 150px 0;
+    margin-top: 80px;
+    justify-content: start;
+    align-items: start;
+    background-image: url('../img/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 400px;
+    max-width: 100%;
+    height: max-content;
+
+    .hero-container {
+        padding: 10px;
+        max-width: 490px;
+
+        div {
+            display: flex;
+            align-items: center;
+            max-width: max-content;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            height: 100px;
+            margin-right: 40px;
+            border: none;
+            border-right: 1px solid #888888;
+        }
+
+        h1 {
+            font-style: normal;
+            font-weight: 700;
+            margin: 0 0 30px 0px;
+            font-size: 50px;
+            line-height: 120%;
+            color: #000000;
+        }
+
+        p {
+            font-style: normal;
+            margin: 0;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #777777;
+        }
+
+        .hero-btn {
+            background-color: #EA625C;
+            color: white;
+            padding: 12px 38px;
+            border: none;
+            text-decoration: none;
+        }
+
+        
+
+        
+
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width:520px)  {
+
+    .hero {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        padding: 423px 0 0 0;
+        align-items: start;
+        background-image: url('../img/bg-hero-res.jpg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: unset;
+        max-width: 100%;
+    
+        .hero-container {
+            max-width: 490px;
+    
+            div {
+                display: flex;
+                align-items: center;
+                max-width: max-content;
+                margin-bottom: 30px;
+            }
+    
+            hr {
+                height: 100px;
+                margin-right: 40px;
+                border: none;
+                border-right: 1px solid #888888;
+            }
+    
+            h1 {
+                font-style: normal;
+                font-weight: 700;
+                margin: 0 0 30px 0px;
+                font-size: 50px;
+                line-height: 120%;
+                color: #000000;
+            }
+    
+            p {
+                font-style: normal;
+                margin: 0;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #777777;
+            }
+    
+            .hero-btn {
+                background-color: #EA625C;
+                color: white;
+                padding: 12px 38px;
+                border: none;
+                text-decoration: none;
+            }
+    
+            
+    
+            
+    
+        }
+    
+    
+    }
+    
+}
+
